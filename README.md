@@ -24,7 +24,9 @@ The goal of this geospatial application is to identify and visualize medical res
 ## Food for Thought
 
 Accurate and up-to-date data is a major concern for an application like this. In a future release, it would be very useful to have recent data that automatically retrieves at a given interval- say monthly or yearly. 
+
 It would also be very worthwile to have users categorized into either the general public or medical planners and have the app have a dual purpose, with different functionality depending on the type of end user. For the general public, we would have liked to add a functionality where you could click on any spot in Goa (presumably matching the user's location), and it would calculate the distance to the nearest medical facility and give you other important attributes about it (same as above). For medical planners, it would be really useful for them to be able to click on any spot in Goa and for it to draw isochrones with a estimate of the population served for that location- allowing new facilities to be built in underserved errors.
+
 We think that this app provides pretty useful information that could be used by a variety of people for different purposes. Within the scope of this project and with the limited time that we had, we were able to show how medical resources are distributed in Goa. The app could easily be expanded to include more types of data with different parameters for any area.
 
 ### Tools
