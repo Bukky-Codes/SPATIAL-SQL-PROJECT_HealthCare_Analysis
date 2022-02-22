@@ -1,5 +1,13 @@
 # Epic Medical Planning System for Goa, India
 
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl7huqPy2dusDP6E28398gOXTci-h4eDmrxA-iEmGuEqZ2VHXJjp1mUs6-SqLbs2l8UU&usqp=CAU)
+
+![image](https://www.attainia.com/wp-content/uploads/2018/05/Healthcare-facility-hospital.jpg)
+
+![image](https://www.constructionexec.com/assets/site_18/images/article/092320032249.jpg?width=1280)
+
+
+
 # Introduction
 
 The goal of this geospatial application is to identify and visualize medical resource allocation in the State of Goa, India. This is accomplished by plotting the locations of the medical facilties for the entire state and creating buffers around them. More specifically, these buffers are actually "isochrones"- polygons that represent equal driving distances around a given point. The user can select a specific facility and two isochrones will be created around it. Two distances were chosen for each isochrone- a smaller and a larger one- to represent two levels of the facility's availability to nearby residents. The distances selected for these isochrones are somewhat arbitrary, but they can primarily be determined based on the size of the facility- The larger the facility, the greater its service area. Both for simplicity's sake and based on the categorizations of medical facilities in the data, the facilities are broken up into 3 tiers: the first tier includes major hospitals, the second tier includes smaller health centers, and the third tier contains medical clinics. Therefore, tier one facilities have the largest isochrones and tier three have the smallest. These isochrones are then overlayed on top of census tracts for the state in order to see how many people are served by a particular facility. This results in intersections of polygons (between census tracts and isochrones) and tells the user an estimate of the total population served. In addition, the application returns a popup window with other important information: the name of the facility, the type of facility, and the size of the isochrone around the facility (both large and small and the radius in km).
