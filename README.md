@@ -28,8 +28,11 @@ These isochrones are then overlayed on top of census tracts for the state in ord
 
 ### How to Run
 1. Create a new environment and install all dependencies.
-2.
-3.
+2. Import all the required libraries to your IDE
+3. Connect to the database and initiate the flask app 
+4. Carry out crud
+5. Run the app
+
 
 ## Limitations
 - Intersections are based on percentage of area of the census tracts covered by isochrones, which is not accurate because people may or may not live in that area
@@ -67,4 +70,3 @@ We think that this app provides pretty useful information that could be used by 
 - PostGIS
 - Leaflet
 - CSS-Bootstrap
-- osm2po
