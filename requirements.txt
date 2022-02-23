@@ -1,0 +1,14 @@
+geopandas
+flask
+folium
+jsonify
+loguru
+matplotlib
+mapclassify
+numpy
+osmconvert
+osm2po
+pandas 
+pyscopg2
+requests
+sqlalchemy
