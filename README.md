@@ -1,10 +1,10 @@
 # Epic Medical Planning System for Goa, India
 
-![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl7huqPy2dusDP6E28398gOXTci-h4eDmrxA-iEmGuEqZ2VHXJjp1mUs6-SqLbs2l8UU&usqp=CAU)
+
 
 ![image](https://www.attainia.com/wp-content/uploads/2018/05/Healthcare-facility-hospital.jpg)
 
-![image](https://www.constructionexec.com/assets/site_18/images/article/092320032249.jpg?width=1280)
+
 
 
 
