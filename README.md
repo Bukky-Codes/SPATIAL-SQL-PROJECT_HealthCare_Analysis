@@ -19,8 +19,16 @@ These isochrones are then overlayed on top of census tracts for the state in ord
 ## Structure
 
 ### How to Install
+1. Download OpenStreetMap network data where you need to calculate isochrones. Download .osm.pbf files from http://download.geofabrik.de/.
+2. In PgAdmin, create a new database and install PgRouting and PostGIS extensions.
+3. With osmconvert, turn the pbf file into osm and, optionally, clip to the extent of your study area. You can use a shapefile for this purpose or coordinates of a bounding box.
+4. Use osm2pgrouting to your osm file into your new database. You also need a configuration file based on how you want to create the network (for cars, walking etc.). There are some basic ones found in the PostgreSQL installation folder. Use your username, password, host, and port to send it to your new database.
+5. This will create two tables in your database- the network and the network nodes- which are the basis for the routing calculations.
 
 ### How to Run
+1. Create a new environment and install all dependencies.
+2.
+3.
 
 ## Limitations
 - Intersections are based on percentage of area of the census tracts covered by isochrones, which is not accurate because people may or may not live in that area
