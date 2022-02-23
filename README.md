@@ -67,3 +67,4 @@ We think that this app provides pretty useful information that could be used by 
 - PostGIS
 - Leaflet
 - CSS-Bootstrap
+- osm2po
